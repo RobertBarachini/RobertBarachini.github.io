@@ -1,0 +1,146 @@
+[
+  {
+    "credit": "https://www.ffmpeg.org/",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/ffmpeg.exe",
+    "path": "ffmpeg.exe",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "https://www.ffmpeg.org/",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/ffprobe.exe",
+    "path": "ffprobe.exe",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_CloseBig.png",
+    "path": "resources\\FormButtons_CloseBig.png",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_CloseSmall.png",
+    "path": "resources\\FormButtons_CloseSmall.png",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_Maximize.png",
+    "path": "resources\\FormButtons_Maximize.png",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_Minimize.png",
+    "path": "resources\\FormButtons_Minimize.png",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/Icon3.png",
+    "path": "resources\\Icon3.png",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/IMG_Directory.png",
+    "path": "resources\\IMG_Directory.png",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/IMG_Settings.png",
+    "path": "resources\\IMG_Settings.png",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/Lyre.ico",
+    "path": "Lyre.ico",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "https://www.newtonsoft.com/json",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/Newtonsoft.Json.dll",
+    "path": "Newtonsoft.Json.dll",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "https://www.newtonsoft.com/json",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/Newtonsoft.Json.xml",
+    "path": "Newtonsoft.Json.xml",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "https://github.com/mono/taglib-sharp",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/policy.2.0.taglib-sharp.config",
+    "path": "policy.2.0.taglib-sharp.config",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "https://github.com/mono/taglib-sharp",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/policy.2.0.taglib-sharp.dll",
+    "path": "policy.2.0.taglib-sharp.dll",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "https://github.com/mono/taglib-sharp",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/taglib-sharp.dll",
+    "path": "taglib-sharp.dll",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "https://rg3.github.io/youtube-dl/",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/youtube-dl.exe",
+    "path": "youtube-dl.exe",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/LyreUpdater.exe",
+    "path": "Updater\\LyreUpdater.exe",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  },
+  {
+    "credit": "Robert Barachini",
+    "url": "https://robertbarachini.github.io/projects/Lyre/resources/Lyre.exe",
+    "path": "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Debug\\Updater\\Lyre.exe",
+    "askForPermission": false,
+    "waitForUser": false,
+    "iteration": 1
+  }
+]
