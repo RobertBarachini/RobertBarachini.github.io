@@ -177,7 +177,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/Lyre.exe",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Lyre.exe"
+      "..\\Lyre.exe"
     ],
     "askForPermission": false,
     "waitForUser": false,
