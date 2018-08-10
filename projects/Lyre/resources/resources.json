@@ -3,7 +3,7 @@
     "credit": "https://www.ffmpeg.org/",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/ffmpeg.exe",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\ffmpeg.exe"
+      "..\\ffmpeg.exe"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -13,7 +13,7 @@
     "credit": "https://www.ffmpeg.org/",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/ffprobe.exe",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\ffprobe.exe"
+      "..\\ffprobe.exe"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -23,7 +23,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_CloseBig.png",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\resources\\FormButtons_CloseBig.png"
+      "..\\resources\\FormButtons_CloseBig.png"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -33,7 +33,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_CloseSmall.png",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\resources\\FormButtons_CloseSmall.png"
+      "..\\resources\\FormButtons_CloseSmall.png"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -43,7 +43,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_Maximize.png",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\resources\\FormButtons_Maximize.png"
+      "..\\resources\\FormButtons_Maximize.png"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -53,7 +53,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/FormButtons_Minimize.png",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\resources\\FormButtons_Minimize.png"
+      "..\\resources\\FormButtons_Minimize.png"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -63,7 +63,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/Icon3.png",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\resources\\Icon3.png"
+      "..\\resources\\Icon3.png"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -73,7 +73,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/IMG_Directory.png",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\resources\\IMG_Directory.png"
+      "..\\resources\\IMG_Directory.png"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -83,7 +83,7 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/IMG_Settings.png",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\resources\\IMG_Settings.png"
+      "..\\resources\\IMG_Settings.png"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -93,8 +93,8 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/Lyre.ico",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Lyre.ico",
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Debug\\Lyre.ico"
+      "..\\Lyre.ico",
+      "Lyre.ico"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -104,8 +104,8 @@
     "credit": "https://www.newtonsoft.com/json",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/Newtonsoft.Json.dll",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Newtonsoft.Json.dll",
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Debug\\Newtonsoft.Json.dll"
+      "..\\Newtonsoft.Json.dll",
+      "Newtonsoft.Json.dll"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -115,8 +115,8 @@
     "credit": "https://www.newtonsoft.com/json",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/Newtonsoft.Json.xml",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Newtonsoft.Json.xml",
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Debug\\Newtonsoft.Json.xml"
+      "..\\Newtonsoft.Json.xml",
+      "Newtonsoft.Json.xml"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -126,7 +126,7 @@
     "credit": "https://github.com/mono/taglib-sharp",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/policy.2.0.taglib-sharp.config",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\policy.2.0.taglib-sharp.config"
+      "..\\policy.2.0.taglib-sharp.config"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -136,7 +136,7 @@
     "credit": "https://github.com/mono/taglib-sharp",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/policy.2.0.taglib-sharp.dll",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\policy.2.0.taglib-sharp.dll"
+      "..\\policy.2.0.taglib-sharp.dll"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -146,7 +146,7 @@
     "credit": "https://github.com/mono/taglib-sharp",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/taglib-sharp.dll",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\taglib-sharp.dll"
+      "..\\taglib-sharp.dll"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -156,7 +156,7 @@
     "credit": "https://rg3.github.io/youtube-dl/",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/youtube-dl.exe",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\youtube-dl.exe"
+      "..\\youtube-dl.exe"
     ],
     "askForPermission": false,
     "waitForUser": false,
@@ -166,12 +166,12 @@
     "credit": "Robert Barachini",
     "url": "https://robertbarachini.github.io/projects/Lyre/resources/LyreLibrary.dll",
     "paths": [
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\LyreLibrary.dll",
-      "C:\\Dokumenti\\Robert\\Robert_Projects\\Programiranje\\C#\\Vaje\\Web\\Lyre\\LyreUpdater\\bin\\Debug\\LyreLibrary.dll"
+      "..\\LyreLibrary.dll",
+      "LyreLibrary.dll"
     ],
     "askForPermission": false,
     "waitForUser": false,
-    "iteration": 2
+    "iteration": 3
   },
   {
     "credit": "Robert Barachini",
@@ -181,6 +181,6 @@
     ],
     "askForPermission": false,
     "waitForUser": false,
-    "iteration": 2
+    "iteration": 3
   }
 ]
