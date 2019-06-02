@@ -1,207 +1,284 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="A more transparent music app." name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
-  <meta property="og:image" content="https://github.com/RobertBarachini/RobertBarachini.github.io/blob/master/assets/images/Lyre.png?raw=true"
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Robert Barachini">
+	<meta name="theme-color" content="#db5945">
+	
+	<title>Robert Barachini</title>
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TKKB5C5');</script>
-  <!-- End Google Tag Manager -->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="styles.css" rel="stylesheet">
+	<link rel="icon" href="resources/RB_logo_1000.png">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> -->
+</head>
+	
+<body onload="initDocument()" onresize="viewSizeChanged()">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123409938-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<!-- Main content -->
+<div id="contentMain">
+	<!-- For 'Jump to top' buttons -->
+	<div id="anchorTop" style="position:absolute; top:0px; left: 0px; width: 0px; height:0px;"></div>
 
-    gtag('config', 'UA-123409938-1');
-  </script>
+	<!-- Header -->
+	<nav class="site-header navbar-expand-lg sticky-top navbar-dark bg-dark shadow-lg">
+		<button class="navbar-toggler" style="margin-left: 20px; margin-top: 10px; margin-bottom:10px;" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="icon" href="./assets/images/Lyre.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/Lyre_512.png">
-  <link href="./assets/favicon.ico" rel="icon">
+		<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+			<ul class="navbar-nav" stlye="">
+				<li class="nav-item active">
+						<a class="py-2" href="index.html" smoothTransition="true">
+								<img src="resources/RB_logo_1000.png"  style="height:100%; max-height: 1.8em">
+						</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html" smoothTransition="true">Home</a>
+				</li>
+				<li class="nav-item" stlye="">
+					<a class="nav-link" href="cv.html">CV</a>
+				</li>
+				<li class="nav-item dropdown bg-dark">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Art</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown08">
+						<a class="dropdown-item" href="music.html">Music</a>
+						<a class="dropdown-item" href="photos.html">Photos</a>
+						<a class="dropdown-item" href="animation.html">Animation</a>
+					</div>
+				</li>
+				<li class="nav-item" stlye="">
+					<a class="nav-link" href="projects.html">Projects</a>
+				</li>
+				<li class="nav-item" stlye="">
+						<a class="nav-link" href="about.html">About me</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-  <link href="" rel="stylesheet">
+	<!-- Post group title -->
+	<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark shadow separatorContainer" id="recentPosts">
+		<div class="col-md-5 p-lg-5 mx-auto my-5 colorDedede separatorContainer">
+			<h1 class="">Most recent posts</h1>
+		</div>
+	</div>
 
+	<!--PRODUCTS ROW 1-->
+	<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+		<!--PRODUCT 1-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">A painting over a balcony</h2>
+				<p class="lead">During the Summer holidays I was staying at my grandma's house in Jesenice. I was lying on the balcony and when I looked up I saw the clouds on the blue blue sky which looked like a watercolor painting.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF1594.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+		<!--PRODUCT 2-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">Underneath the walnut tree</h2>
+				<p class="lead">View of cotton-like clouds from underneath the walnut tree which stood in front of our primary school. The tree is gone and so are the carefree childhood days, but the image is still alive in my mind.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF0411.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+	</div>
 
-  <title>Lyre Project</title>
+	<!--PRODUCTS ROW 2-->
+	<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+		<!--PRODUCT 1-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">Frozen in time</h2>
+				<p class="lead">A still of my dad cleaning the front car window at the gas station in Laško.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF0844.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+		<!--PRODUCT 2-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">A short rest</h2>
+				<p class="lead">This little fella seemed nice and content and I just had to take a quick picture.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF0998.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+	</div>
 
-  <link href="./main.550dcf66.css" rel="stylesheet"></head>
+	<!-- CONTRAST SEPARATOR -->
+	<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light shadow separatorContainer" id="">
+		<div class="col-md-5 p-lg-5 mx-auto my-5 separatorContainer2">
+			<h2>Work for the world<br> you want to live in.</h2>
+		</div>
+	</div>
 
-<body> <!-- Add your content of header -->
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKKB5C5"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<header>
-  <nav class="navbar navbar-default active">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="./index.html" title="">
-          <img src="./assets/images/Lyre_512.png" class="navbar-logo-img" alt="" style="height: 100%">
-          Lyre Project
-        </a>
-      </div>
+	<!--PRODUCTS ROW 1-->
+	<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+		<!--PRODUCT 1-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">Sparrow from Radovljica</h2>
+				<p class="lead">We had just finished eating lunch when this birdy landed right next to our table. I just got lucky and squeezed the shutter at the perfect moment.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF1045.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+		<!--PRODUCT 2-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">Hovering shade</h2>
+				<p class="lead">Light shade shot at a high shutter speed looks like it's floating.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF1350.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+	</div>
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="./index.html" title="">Home</a></li>
-          <li><a href="./download.html" title="">Download</a></li>
-          <li><a href="https://github.com/RobertBarachini/Lyre" title="" target="_blank">Project</a></li>
-          <li>
-            <p>
-              <a href="./donate.html" class="btn btn-default navbar-btn" title="">Donate</a>
-            </p>
-          </li>
+	<!--PRODUCTS ROW 2-->
+	<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+		<!--PRODUCT 1-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">Temporary trout</h2>
+				<p class="lead">A small trout my dad caught. Soon after the picture was taken we realeased it back into the stream.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF1967.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+		<!--PRODUCT 2-->
+		<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden shadow colorDarkB productContainer" id="product1">
+			<div class="my-3 p-3 colorLight">
+				<h2 class="display-5">Fire of youth</h2>
+				<p class="lead">Flowers that grow in front of our house and remind me of home.</p>
+				<div id="carouselExampleIndicators" class="carousel slide myCarousel" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100 imgGray imgResizable" src="resources/DSCF0339.jpg" alt="First slide">
+						</div>
+					</div>
+				</div>
+				<a class="btn btn-outline-secondary btnMore" href="more.html" smoothTransition="true">More</a>
+			</div>
+		</div>
+	</div>
 
-        </ul>
-      </div> 
-    </div>
-  </nav>
-</header>
+	<!--FIN-->
+	<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light shadow separatorContainer">
+		<div class="col-md-5 p-lg-5 mx-auto my-5 colorSilver separatorContainer">
+			<h1>fin .</h1>
+			<a class="btn btn-outline-secondary btnMore" href="#anchorTop" smoothTransition="true">Jump to top</a>
+		</div>
+	</div>
 
-<!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="./assets/images/Lyre_512.png" alt="" class="reveal img-responsive reveal-content image-center" style="height:186px">
-          <h1>Lyre</h1>
-          <p>A more transparent music app.</p>
-          <br>
-          <a href="./download.html" class="btn btn-default btn-lg" title="" stlye="border-radius: 100%">Download</a>
-        </div>
-      </div>
-    </div>
-  </div>
+	<!-- Footer -->
+	<footer class="container py-5 bg-dark colorDedede" style="margin: 0 auto !important; max-width: 100%;" id="contentFooter">
+		<div class="row" style="max-width: 1100px; margin: 0 auto;">
+			<div class="col-12 col-md">
+				<img src="resources/RB_logo_1000.png" class="headerLogoImage" style="max-height: 70px;">
+				<small class="d-block mb-3 text-muted colorDedede">Robert Barachini &copy; 2019</small>
+			</div>
+			<div class="col-6 col-md">
+				<h5>Quick access</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted colorDedede" href="cv.html">CV</a></li>
+					<li><a class="text-muted colorDedede" href="music.html">Music and video</a></li>
+					<li><a class="text-muted colorDedede" href="projects.html">Projects</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-md">
+				<h5>Websites</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted colorDedede" href="https://github.com/RobertBarachini">GitHub</a></li>
+					<li><a class="text-muted colorDedede" href="https://www.youtube.com/channel/UCcWYyiG98dtVmfrA_l5jInw">YouTube</a></li>
+					<li><a class="text-muted colorDedede" href="https://soundcloud.com/robert-barachini">SoundCloud</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-md">
+				<h5>About</h5>
+				<ul class="list-unstyled text-small">
+					<li><a class="text-muted colorDedede" href="about.html">About</a></li>
+					<li><a class="text-muted colorDedede" href="#">Contact information</a></li>
+					<li><a class="text-muted colorDedede" href="#">Privacy</a></li>
+					<li><a class="text-muted colorDedede" href="#">Terms</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <div class="text-center">
-            <h2>About us</h2>
-            <p>
-              Lyre is an Open-source project that aims to provide a wide range of free multimedia programs.
-              <br><br>The main goal for Lyre Project is to allow the end user to download content from the Internet for personal use and offline viewing. Lyre Project currenty provides a YouTube downloader and a 'downloads history viewer'. Next goal is to create a complete software suite which will include a downloader, media library, media player and more.
-            </p>
-          </div>
-       </div>
-      </div>
-    </div>
-  </div>
+<!-- The Modal -->
+<div class="modalClass" id="modalImgContainer">
+	<div class="contentModalImgContainer">
+		<img class="contentModalImg" id="modalImgMain">
+	</div>
+	<div class="contentModalControlsContainer">
+		<span class="controlsModalImgContainer" id="closeModalImgContainer">&times;</span>
+		<!-- <span class="controlsModalImgContainer" id="zoomInModalImgContainer">+</span> -->
+		<!-- <span class="controlsModalImgContainer" id="zoomOutModalImgContainer">-</span> -->
+		<div id="modalImgCaption"></div>
+	</div>
+</div>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <div class="text-center">
-            <h2>Vision</h2>
-            <p>I had been using different music/video programs and downloaders for quite some time before I got this idea. There were many things that were bothering me. Music programs lacked the control I wanted. I didn't like the UI or some other part of the user experience. The main thing that bothered me about downloaders were ads, adware, forced installations of other programs, and overall shady behavior.
-            <br><br>One day I have had enough and made a plan to create my own program that would be consistent and would fix the features that bothered me. I also decided that the project would be <a href="https://github.com/RobertBarachini/Lyre" title="" target="_blank">Open-source</a>. There are two main reasons behind that decision. The first reason is sharing the code and allowing others to improve upon my work. The second reason is also really important in my opinion - transparency. Transparency improves the trust in the system and is a concept that means a lot to me. I also think that it should be implemented elsewhere.</p>
-          </div>
-       </div>
-      </div>
-    </div>
-  </div>
+<!-- Blur component -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="position: fixed">
+	<filter id="blur">
+			<feGaussianBlur stdDeviation="15" />
+	</filter>
+</svg>
 
-  <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <div class="text-center">
-            <h2>Funding</h2>
-            <p>The only source of income for this project are donations. I treasure each and every one of them as they allow me to continue doing what I love. 
-            <br><br>If you think this project deserves ❤️ please consider <a href="./donate.html">donating</a>.
-            </p>
-          </div>
-       </div>
-      </div>
-    </div>
-  </div>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <div class="section-container">
-    <div class="container text-center">
-      <div class="row section-container-spacer">
-        <div class="col-xs-12 col-md-12">
-          <h2>Team</h2>
-          <p>A one-man band.</p>
-        </div>  
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-12">
-          <img src="./assets/images/RobertProfil.jpg" alt="" class="reveal img-responsive reveal-content image-center" style="height:256px; border-radius: 128px">
-          <h3>Robert Barachini</h3>
-          <h4>Creator</h4>
-          <p>I have ideas and sometimes make stuff.</p>
-          <p>
-            <a href="https://github.com/RobertBarachini" class="social-round-icon fa-icon" title="" target="_blank">
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.facebook.com/robert.barachini" class="social-round-icon fa-icon" title="" target="_blank">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCcWYyiG98dtVmfrA_l5jInw" class="social-round-icon fa-icon" title="" target="_blank">
-              <i class="fa fa-youtube" aria-hidden="true"></i>
-            </a>
-            <a href="https://soundcloud.com/robert-barachini" class="social-round-icon fa-icon" title="" target="_blank">
-              <i class="fa fa-soundcloud" aria-hidden="true"></i>
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-    navbarFixedTopAnimation();
-  });
-</script>
-
-<footer class="footer-container white-text-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h3>Mountain</h3>
-        <div class="row">
-          <div class="col-xs-12 col-sm-7">
-            <p><small>Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-    navActivePage();
-    scrollRevelation('.reveal');
-  });
-</script>
-
-<script type="text/javascript" src="./main.0cf8b554.js"></script></body>
-
+</body>
 </html>
